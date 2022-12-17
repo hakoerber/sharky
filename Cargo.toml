@@ -1,9 +1,24 @@
 [package]
-name = "sharks"
-version = "0.1.0"
+name = "sharky"
+version = "0.1.2"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = [
+  "Hannes Körber <hannes@hkoerber.de>",
+]
+description = """
+A small wrapper around sharks to handle Shamir's Secret
+Sharing
+"""
+
+homepage = "https://github.com/hakoerber/sharky"
+repository = "https://github.com/hakoerber/sharky"
+
+readme = "README.md"
+
+rust-version = "1.66"
+
+license = "GPL-3.0-only"
 
 [dependencies]
 sharks = "0.4"
